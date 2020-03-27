@@ -10,7 +10,8 @@ L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
     attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
 }).addTo(map);
 
-var url_to_geotiff_file = "exemplotiff.tif";
+//var url_to_geotiff_file = "exemplotiff.tif";
+var url_to_geotiff_file = "visual_FieldGroup_1_2020-02-10.tiff";
 
 fetch(url_to_geotiff_file)
   .then(response => response.arrayBuffer())
